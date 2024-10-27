@@ -1,0 +1,104 @@
+/* common css start */
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  border: none;
+  font-family: "Sora", sans-serif;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+ol {
+  list-style: none;
+}
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+/* common css end */
+/* nav start */
+#navigation {
+  padding: 50px 0 24px;
+}
+#navigation .navbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#navigation .navbox .navlist ul {
+  display: flex;
+  align-items: center;
+  column-gap: 48px;
+}
+#navigation .navbox .navlist ul li a {
+  color: rgba(19, 19, 19, 0.7);
+  font-size: 16px;
+  text-transform: capitalize;
+}
+#navigation .navbox .navlist ul li .coinbox {
+  padding: 16px 20px;
+  color: #131313;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 12px;
+  border: 1px solid rgba(19, 19, 19, 0.1);
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+/* nav end */
+/* banner start */
+#banner {
+  padding: 0 0 88px;
+}
+#banner .brnbox {
+  display: flex;
+  flex-direction: column;
+  padding: 64px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 24px;
+  border: 1px solid rgba(19, 19, 19, 0.1);
+  background: #131313;
+  background-image: url('../svg/bannershap.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+#banner .brnbox h1 {
+  margin-top: 24px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+}
+#banner .brnbox h4 {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  margin-top: 16px;
+}
+#banner .brnbox button {
+  margin-top: 24px;
+  color: #131313;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 14px 20px;
+  border-radius: 12px;
+  background-color: #e7fe29;
+  box-shadow: 4px 4px 20px 0px rgba(19, 19, 19, 0.3) inset;
+  border: 8px solid black;
+  outline: 1px solid #e7fe29;
+}
+/* banner end */
