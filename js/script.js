@@ -50,7 +50,7 @@ chooseButtons.forEach((button) => {
     let imglink = imglinkfind(button); // Get the image link for the current button
 
     let selectionBoxitem = document.createElement("div");
-    selectionBoxitem.classList.add("item");
+    selectionBoxitem.classList.add("selecteditem");
     selectionbox.appendChild(selectionBoxitem);
 
     let selectedleft = document.createElement("div");
@@ -87,4 +87,5 @@ playeravailable.addEventListener("click", () => {
 });
 
 // palyerbox end
+
 
